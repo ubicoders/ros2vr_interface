@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ubi_vrobots_interface/msg/VRobotStates.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module ubi_vrobots_interface {
+  module msg {
+    struct VRobotStates {
+      string name;
+
+      int32 id;
+
+      double timestamp;
+
+      geometry_msgs::msg::Vector3 lin_acc;
+
+      geometry_msgs::msg::Vector3 lin_vel;
+
+      geometry_msgs::msg::Vector3 lin_pos;
+
+      geometry_msgs::msg::Vector3 ang_acc;
+
+      geometry_msgs::msg::Vector3 ang_vel;
+
+      geometry_msgs::msg::Vector3 euler;
+
+      geometry_msgs::msg::Vector3 euler_dot;
+
+      geometry_msgs::msg::Quaternion quaternion;
+
+      sequence<uint32> pwm;
+
+      sequence<double> actuators;
+
+      geometry_msgs::msg::Vector3 force;
+
+      geometry_msgs::msg::Vector3 torque;
+
+      geometry_msgs::msg::Vector3 accelerometer;
+
+      geometry_msgs::msg::Vector3 gyroscope;
+
+      geometry_msgs::msg::Vector3 magnetometer;
+    };
+  };
+};

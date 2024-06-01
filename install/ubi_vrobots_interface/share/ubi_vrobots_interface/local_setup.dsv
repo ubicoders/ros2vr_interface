@@ -1,0 +1,4 @@
+source;share/ubi_vrobots_interface/environment/ament_prefix_path.sh
+source;share/ubi_vrobots_interface/environment/library_path.sh
+source;share/ubi_vrobots_interface/environment/path.sh
+source;share/ubi_vrobots_interface/environment/pythonpath.sh

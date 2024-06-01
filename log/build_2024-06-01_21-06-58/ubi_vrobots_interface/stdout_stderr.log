@@ -1,0 +1,261 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_generator_c>;$<BUILD_INTERFACE:/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_typesupport_introspection_cpp>;/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_generator_c;/home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/build/ubi_vrobots_interface
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_ubi_vrobots_interface
+running egg_info
+creating ubi_vrobots_interface.egg-info
+writing ubi_vrobots_interface.egg-info/PKG-INFO
+writing dependency_links to ubi_vrobots_interface.egg-info/dependency_links.txt
+writing top-level names to ubi_vrobots_interface.egg-info/top_level.txt
+writing manifest file 'ubi_vrobots_interface.egg-info/SOURCES.txt'
+reading manifest file 'ubi_vrobots_interface.egg-info/SOURCES.txt'
+writing manifest file 'ubi_vrobots_interface.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_ubi_vrobots_interface_egg
+[  5%] Built target ubi_vrobots_interface__cpp
+[  7%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_generator_c.dir/rosidl_generator_c/ubi_vrobots_interface/msg/detail/v_robot_states__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_generator_c.dir/rosidl_generator_c/ubi_vrobots_interface/msg/detail/v_robot_actuator__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 20%] [32m[1mLinking C shared library libubi_vrobots_interface__rosidl_generator_c.so[0m
+[ 20%] Built target ubi_vrobots_interface__rosidl_generator_c
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ubi_vrobots_interface/msg/v_robot_actuator__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ubi_vrobots_interface/msg/v_robot_states__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ubi_vrobots_interface/msg/detail/v_robot_actuator__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ubi_vrobots_interface/msg/detail/dds_fastrtps/v_robot_actuator__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ubi_vrobots_interface/msg/detail/v_robot_states__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ubi_vrobots_interface/msg/detail/dds_fastrtps/v_robot_states__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ubi_vrobots_interface/msg/v_robot_actuator__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ubi_vrobots_interface/msg/v_robot_states__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ubi_vrobots_interface/msg/detail/v_robot_actuator__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ubi_vrobots_interface/msg/detail/v_robot_states__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ubi_vrobots_interface/msg/detail/v_robot_states__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ubi_vrobots_interface/msg/detail/v_robot_actuator__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library libubi_vrobots_interface__rosidl_typesupport_c.so[0m
+[ 64%] [32m[1mLinking C shared library libubi_vrobots_interface__rosidl_typesupport_introspection_c.so[0m
+[ 64%] Built target ubi_vrobots_interface__rosidl_typesupport_c
+[ 66%] [32m[1mLinking CXX shared library libubi_vrobots_interface__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target ubi_vrobots_interface__rosidl_typesupport_introspection_c
+[ 66%] Built target ubi_vrobots_interface__rosidl_typesupport_cpp
+[ 69%] [32m[1mLinking CXX shared library libubi_vrobots_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 71%] [32m[1mLinking CXX shared library libubi_vrobots_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] [32m[1mLinking CXX shared library libubi_vrobots_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target ubi_vrobots_interface__rosidl_typesupport_introspection_cpp
+[ 74%] Built target ubi_vrobots_interface__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target ubi_vrobots_interface__rosidl_typesupport_fastrtps_c
+[ 74%] Built target ubi_vrobots_interface
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target ubi_vrobots_interface__py
+[ 79%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_generator_py.dir/rosidl_generator_py/ubi_vrobots_interface/msg/_v_robot_states_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_generator_py.dir/rosidl_generator_py/ubi_vrobots_interface/msg/_v_robot_actuator_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/ubi_vrobots_interface/libubi_vrobots_interface__rosidl_generator_py.so[0m
+[ 84%] Built target ubi_vrobots_interface__rosidl_generator_py
+[ 89%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ubi_vrobots_interface/_ubi_vrobots_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ubi_vrobots_interface/_ubi_vrobots_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/ubi_vrobots_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ubi_vrobots_interface/_ubi_vrobots_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target ubi_vrobots_interface__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ubi_vrobots_interface__rosidl_typesupport_c__pyext
+[100%] Built target ubi_vrobots_interface__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ament_index/resource_index/rosidl_interfaces/ubi_vrobots_interface
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__type_support.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__struct.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__type_support.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__functions.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__functions.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__struct.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__functions.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__functions.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/v_robot_actuator.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/v_robot_states.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/library_path.sh
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/library_path.dsv
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_generator_c.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__traits.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__struct.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__traits.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__struct.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__builder.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__builder.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/v_robot_actuator.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/v_robot_states.hpp
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/dds_fastrtps
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__type_support.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__type_support.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg
+-- Up-to-date: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__type_support.cpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_states__type_support.cpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/include/ubi_vrobots_interface/ubi_vrobots_interface/msg/detail/v_robot_actuator__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/pythonpath.sh
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/pythonpath.dsv
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface-0.0.0-py3.10.egg-info
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/_ubi_vrobots_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/_v_robot_actuator_s.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/__init__.py
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/_v_robot_states.py
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/_v_robot_actuator.py
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/_v_robot_states_s.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/_ubi_vrobots_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/__init__.py
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/_ubi_vrobots_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/libubi_vrobots_interface__rosidl_generator_py.so
+Listing '/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface'...
+Compiling '/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/__init__.py'...
+Listing '/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg'...
+Compiling '/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/__init__.py'...
+Compiling '/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/_v_robot_actuator.py'...
+Compiling '/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/msg/_v_robot_states.py'...
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/local/lib/python3.10/dist-packages/ubi_vrobots_interface/ubi_vrobots_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_generator_py.so
+-- Set runtime path of "/home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/lib/libubi_vrobots_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/msg/VRobotStates.idl
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/msg/VRobotActuator.idl
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/msg/VRobotStates.msg
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/msg/VRobotActuator.msg
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ament_index/resource_index/package_run_dependencies/ubi_vrobots_interface
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ament_index/resource_index/parent_prefix_path/ubi_vrobots_interface
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/path.sh
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/environment/path.dsv
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/local_setup.bash
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/local_setup.sh
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/local_setup.zsh
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/local_setup.dsv
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/package.dsv
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ament_index/resource_index/packages/ubi_vrobots_interface
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/export_ubi_vrobots_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interfaceConfig.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/cmake/ubi_vrobots_interfaceConfig-version.cmake
+-- Installing: /home/ubuntu/robot_ws/src/ubi_vrobots_interface/install/ubi_vrobots_interface/share/ubi_vrobots_interface/package.xml

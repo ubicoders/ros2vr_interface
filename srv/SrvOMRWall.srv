@@ -1,0 +1,15 @@
+# Request
+float64 timestamp
+string name
+int32 id
+int32 req_src_id  # if multiple systems
+
+bool clear_wall
+bool set_wall
+
+geometry_msgs/Vector3[] vec3_list
+
+---
+# Response
+bool success
+string message

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ubi_vrobots_interface/msg/VRobotActuator.msg
+// generated code does not contain a copyright notice
+
+
+module ubi_vrobots_interface {
+  module msg {
+    struct VRobotActuator {
+      sequence<int32> pwm;
+
+      float force;
+    };
+  };
+};
