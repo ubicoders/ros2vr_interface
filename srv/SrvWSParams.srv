@@ -1,0 +1,19 @@
+std_msgs/Header header
+string name
+uint32 id
+uint32 req_src_id
+uint32 cmd_report_once
+uint32 cmd_connect
+uint32 cmd_disconnect
+string set_prod_url
+string set_prod_port
+string set_dev_url
+string set_dev_port
+
+---
+uint32 is_connected
+string current_url
+string prod_url
+string prod_port
+string dev_url
+string dev_port

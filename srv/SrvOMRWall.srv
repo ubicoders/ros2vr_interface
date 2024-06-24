@@ -1,5 +1,5 @@
 # Request
-float64 timestamp
+std_msgs/Header header
 string name
 int32 id
 int32 req_src_id  # if multiple systems

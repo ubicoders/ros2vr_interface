@@ -22,12 +22,20 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 set(msg_files
+  "msg/Collision.msg"
   "msg/VRobotStates.msg"
-  "msg/VRobotActuator.msg"
+  "msg/VRobotCMD.msg"
+  "msg/VRSceneObject.msg"
+  "msg/Quest.msg"
+)
+
+set(srv_files
+  "srv/SrvGlobalParams.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES builtin_interfaces geometry_msgs
 )
 

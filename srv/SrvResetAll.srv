@@ -1,0 +1,5 @@
+std_msgs/Header header
+string name
+uint32 sys_id
+uint32 req_src_id
+bool reset_all

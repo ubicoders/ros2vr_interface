@@ -1,0 +1,14 @@
+std_msgs/Header header
+string name
+uint32 id
+uint32 req_src_id
+uint32 cmd_report_once
+uint32 cmd_reset
+uint32 set_stream_to_rjs
+uint32 set_stream_to_ws
+uint32 set_noise_on
+---
+uint32 stream_to_rjs
+uint32 stream_to_ws
+uint32 noise_on
+
